@@ -1,0 +1,18 @@
+.custom-font {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+.custom-img-footer {
+    width: 100px;
+    height: 100px;
+  }
+  .custom-width {
+    max-width: 450px;
+    max-height: 450px;
+}
+.bg-custom {
+    background-color: #f3f9fe
+  }

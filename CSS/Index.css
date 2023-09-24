@@ -1,0 +1,83 @@
+.custom-font {
+font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.custom-width {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.img-shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .img-shadow:hover {
+    box-shadow: 0 0 10px rgba(26, 1, 1, 0.911);
+  }
+  
+  .img-shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .img-move {
+    transition: transform 0.3s ease;
+  }
+  
+  .img-move:hover {
+    transform: translate(10px, -5px);
+  }
+  
+ 
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .bg-custom {
+    background-color: #f3f9fe
+  }
+ .custom-size {
+  width :100vh;
+   height: 50vh;
+ }
+ .custom-size {
+  width: 165vh;
+  height: 50vh;
+}
+
+.zoom-on-hover {
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.zoom-on-hover:hover img {
+  transform: scale(1.1);
+}
+.mt-custom {
+  margin-top: 8em;
+}
+
+
+
+.custom-gallery {
+  width:60vh;
+  height: 50vh;
+}
+.custom-gallery-one {
+  width: 60vh;
+  height: 98vh;
+}
+
+
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .custom-size {
+    width: 400px;
+    height: auto;
+  }
+  .zoom-on-hover:hover img {
+    transform: none;
+  }
+}
